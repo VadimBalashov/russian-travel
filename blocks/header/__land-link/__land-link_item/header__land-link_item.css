@@ -1,8 +1,0 @@
-.header__land-link_item{
-    color: #FFFFFF;
-    padding-right: 18px;
-    text-decoration-line: none;
-}
-.header__land-link_item:last-child{
-    padding-right: 0;
-}

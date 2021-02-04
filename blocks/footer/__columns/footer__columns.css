@@ -1,6 +1,6 @@
-.footer__content {
+.footer__columns {
     max-width: 1184px;
-    height: 18px;
+    min-height: 18px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -8,19 +8,19 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .footer__content {
+    .footer__columns {
         padding-right: 48px;
         padding-left: 48px;
     }
 }
 @media screen and (max-width: 768px) {
-    .footer__content {
+    .footer__columns {
         padding-right: 24px;
         padding-left: 24px;
     }
 }
 @media screen and (max-width: 550px) {
-    .footer__content {
+    .footer__columns {
         flex-direction: column;
         padding-left: 16px;
         align-items: baseline;

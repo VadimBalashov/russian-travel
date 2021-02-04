@@ -1,4 +1,4 @@
-.footer__content_link {
+.footer__column_link {
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -8,11 +8,11 @@
     padding-right: 18px;
     text-decoration: none;
 }
-.footer__content_link:hover {
+.footer__column_link:hover {
     opacity: 0.8;
 }
 @media screen and (max-width: 320px) {
-    .footer__content_link {
+    .footer__column_link {
         font-size: 24px;
         line-height: 24px;
     }

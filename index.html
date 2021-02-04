@@ -14,10 +14,14 @@
         <header class="header">
             <img src="images/header-logo.svg" class="logo" alt="Логотип">
 
-            <nav class="header__land-link">
-                <a href="#" class="header__land-link_item header__land-link_item_underline" target="_self">Ru</a>
-                <a href="#" class="header__land-link_item" target="_self">En</a>
+            <nav class="header__land-links">
+                <div class="header__land-link">
+                    <a href="#" class="header__land-link header__land-link_underline" target="_self">Ru</a>
+                    <a href="#" class="header__land-link" target="_self">En</a>
+                </div>
             </nav>
+
+
         </header>
 
         <main class="content">
@@ -69,8 +73,9 @@
                     <h3 class="place__title">Куршская коса</h3>
                     <img src="images/place-kosa.jpg" class="place__image" alt="Поезд">
                     <div class="place__website">
-                        <p class="place__website_url-heading">URL</p>
-                        <a href="#" class="place__website_link" target="_self">park-kosa.ru</a>
+                        <div class="place__website-area"></div>
+                        <p class="place__website-area place__website-area_url-heading">URL</p>
+                        <a href="#" class="place__website-area place__website-area_link" target="_self">park-kosa.ru</a>
                     </div>
                     <div class="place__text">
                         <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
@@ -88,8 +93,11 @@
                     <h3 class="place__title">Кольский</h3>
                     <img src="images/place-kolsky.jpg" class="place__image" alt="Поезд">
                     <div class="place__website">
-                        <p class="place__website_url-heading">URL</p>
-                        <a href="#" class="place__website_link">National Geographic</a>
+                        <div class="place__website-area">
+                            <p class="place__website-area place__website-area_url-heading">URL</p>
+                            <a href="#" class="place__website-area place__website-area_link" target="_self">National
+                                Geographic</a>
+                        </div>
                     </div>
                     <div class="place__text">
                         <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра,
@@ -107,8 +115,10 @@
                     <h3 class="place__title">Алтай</h3>
                     <img src="images/place-altai.jpg" class="place__image" alt="Поезд">
                     <div class="place__website">
-                        <p class="place__website_url-heading">URL</p>
-                        <a href="#" class="place__website_link" target="_self">Facebook</a>
+                        <div class="place__website-area">
+                            <p class="place__website-area place__website-area_url-heading">URL</p>
+                            <a href="#" class="place__website-area place__website-area_link" target="_self">Facebook</a>
+                        </div>
                     </div>
                     <div class="place__text">
                         <p class="place__paragraph place__paragraph_altai">Алтай — одно из красивейших мест в России.
@@ -125,8 +135,11 @@
                     <h3 class="place__title">Зимний Байкал</h3>
                     <img src="images/place-winter-baikal.jpg" class="place__image" alt="Поезд">
                     <div class="place__website">
-                        <p class="place__website_url-heading">URL</p>
-                        <a href="#" class="place__website_link" target="_self">https://vk.com/baikalmile</a>
+                        <div class="place__website-area">
+                            <p class="place__website-area place__website-area place__website-area_url-heading">URL</p>
+                            <a href="#" class="place__website-area place__website-area place__website-area_link"
+                                target="_self">https://vk.com/baikalmile</a>
+                        </div>
                     </div>
                     <div class="place__text">
                         <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро
@@ -142,8 +155,11 @@
                     <h3 class="place__title">Карелия</h3>
                     <img src="images/place-kosa.jpg" class="place__image" alt="Поезд">
                     <div class="place__website">
-                        <p class="place__website_url-heading">URL</p>
-                        <a href="#" class="place__website_link" target="_self">http://vodlozero.ru/</a>
+                        <div class="place__website-area">
+                            <p class="place__website-area place__website-area_url-heading">URL</p>
+                            <a href="#" class="place__website-area place__website-area_link"
+                                target="_self">http://vodlozero.ru/</a>
+                        </div>
                     </div>
                     <div class="place__text">
                         <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
@@ -166,21 +182,21 @@
             </section>
 
             <footer class="footer">
-                <div class="footer__content">
-                    <ul class="footer__content_row">
-                        <li class="footer__content_item"><a href=" https://yandex.ru/maps" class="footer__content_link"
-                                target="_self">Карта</a></li>
-                        <li class="footer__content_item"><a href="https://yandex.ru/pogoda" class="footer__content_link"
-                                target="_self">Погода</a></li>
-                        <li class="footer__content_item"><a href="https://rasp.yandex.ru" class="footer__content_link"
-                                target="_self">Расписание</a></li>
-                        <li class="footer__content_item"><a href="https://calendar.yandex.ru"
-                                class="footer__content_link" target="_self">Календарь</a></li>
-                        <li class="footer__content_item"><a href="https://travel.yandex.ru" class="footer__content_link"
-                                target="_self">Путешествия</a></li>
+                <div class="footer__columns">
+                    <ul class="footer__column">
+                        <li class="footer__column footer__column_item"><a href=" https://yandex.ru/maps"
+                                class="footer__column_link" target="_self">Карта</a></li>
+                        <li class="footer__column footer__column_item"><a href="https://yandex.ru/pogoda"
+                                class="footer__column_link" target="_self">Погода</a></li>
+                        <li class="footer__column footer__column_item"><a href="https://rasp.yandex.ru"
+                                class="footer__column_link" target="_self">Расписание</a></li>
+                        <li class="footer__column footer__column_item"><a href="https://calendar.yandex.ru"
+                                class="footer__column footer__column_link" target="_self">Календарь</a></li>
+                        <li class="footer__column footer__column_item"><a href="https://travel.yandex.ru"
+                                class="footer__column_link" target="_self">Путешествия</a></li>
                     </ul>
-                    <div class="footer__content_copyright">
-                        <p class="footer__content_copyright_text">© 2021. Вадим</p>
+                    <div class="footer__column footer__column_copyright">
+                        <p class="footer__column footer__column_copyright_text">© 2021. Вадим</p>
                     </div>
                 </div>
             </footer>
