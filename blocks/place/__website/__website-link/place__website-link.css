@@ -1,4 +1,4 @@
-.place__website-area_link{
+.place__website-link{
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -8,7 +8,7 @@
     color: #FFFFFF;
     text-decoration: underline;
 }
-.place__website-area_link:hover {
+.place__website-link:hover {
     text-decoration: none;
     opacity: 0.8;
 }

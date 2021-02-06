@@ -1,8 +1,11 @@
 .header__land-link{
+    display: flex;
     color: #FFFFFF;
-    padding-right: 18px;
+    margin: 0;
+    padding: 0;
     text-decoration-line: none;
+    list-style-type:none;
 }
-.header__land-link:last-child{
-    padding-right: 0;
+.header__land-link:hover {
+    opacity: 0.8;
 }
